@@ -68,21 +68,23 @@ Access BIOS by pressing `F2` or `Del` during boot.
 ### Kexts
 | Kext | Version | Purpose |
 |------|---------|---------|
-| VirtualSMC | 1.3.2 | System Management Controller |
-| SMCProcessor | 1.3.2 | CPU temperature monitoring |
-| SMCBatteryManager | 1.3.2 | Battery status |
-| Lilu | 1.6.8 | Kernel extension patching framework |
-| WhateverGreen | 1.6.6 | GPU acceleration (Intel iGPU) |
-| AppleALC | 1.8.9 | Audio codec support |
-| AtherosE2200Ethernet | 2.2.2 | Ethernet driver (if applicable) |
-| VoodooPS2Controller | 2.3.8 | Keyboard and trackpad |
-| CPUFriend | 1.2.7 | CPU power management |
-| CPUFriendDataProvider | 1.0.0 | CPU power management data |
-| IOPCI | 1.0.0 | PCI bridge support |
-| USBInjectAll | 0.7.1 | USB port mapping (during setup) |
-| NVMeFix | 1.2.1 | NVMe power management |
+| [Lilu](https://github.com/acidanthera/Lilu) | 1.7.1 | Kernel extension patching framework |
+| [VirtualSMC](https://github.com/acidanthera/VirtualSMC) | 1.3.7 | System Management Controller |
+| SMCProcessor | - | CPU temperature monitoring (part of VirtualSMC) |
+| SMCBatteryManager | - | Battery status (part of VirtualSMC) |
+| SMCDellSensors | - | Dell sensor support (part of VirtualSMC) |
+| [WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.7.0 | GPU acceleration (Intel iGPU) |
+| [AppleALC](https://github.com/acidanthera/AppleALC) | 1.9.6 | Audio codec support |
+| [VoodooPS2](https://github.com/acidanthera/VoodooPS2) | 2.3.7 | Keyboard and trackpad |
+| [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C/releases) | 2.9.1 | I2C touchpad controller |
+| VoodooI2CHID | - | I2C HID device support (part of VoodooI2C) |
+| [AlpsHID](https://github.com/blankmac/AlpsHID/releases) | 1.2 | Alps touchpad HID support |
+| [IntelMausi](https://github.com/acidanthera/IntelMausi) | 1.0.8 | Intel Ethernet (I219-LM) |
+| [ITLWM](https://openintelwireless.github.io/itlwm/Installation.html#itlwm) | 2.3.0 | Intel WiFi |
+| [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) | 2.4.0 | Intel Bluetooth firmware |
+| [NVMeFix](https://github.com/acidanthera/NVMeFix) | 1.1.3 | NVMe power management |
+| [USBToolBox](https://github.com/USBToolBox/kext) | 1.2.0 | USB port mapping tool |
 
-*To update versions to match my current setup.*
 
 ## Resources
 
