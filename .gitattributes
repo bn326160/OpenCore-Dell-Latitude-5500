@@ -1,0 +1,2 @@
+# Match all config.plist files in OC directories
+**/OC/config.plist filter=anonymize-config

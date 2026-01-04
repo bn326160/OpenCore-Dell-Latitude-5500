@@ -60,9 +60,13 @@ Access BIOS by pressing `F2` or `Del` during boot.
 ## Versions
 
 ### OpenCore & Tools
-| Component | Version |
-|-----------|---------|
-| [OpenCore](https://github.com/acidanthera/OpenCorePkg) | 1.0.6 |
+| Component | Version | Purpose |
+|-----------|---------|---------|
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg) | 1.0.6 | OpenCore bootloader |
+| [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) | 20250001 | Standalone helper application for OpenCore configuration |
+| [ProperTree](https://github.com/corpnewt/ProperTree) | - | Config.plist editor for OpenCore |
+| [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) | - | Generate SMBIOS serials for macOS |
+| [HeliPort](https://github.com/OpenIntelWireless/HeliPort) | - | Intel WiFi menu bar utility |
 
 
 ### Kexts
